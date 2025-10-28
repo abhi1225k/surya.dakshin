@@ -1,0 +1,96 @@
+.insta-section {
+  margin-top: 20px;
+  text-align: center;
+  background: #fdf6f0;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.insta-logo {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.insta-link {
+  color: #e1306c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.insta-link:hover {
+  text-decoration: underline;
+}
+
+
+/* 🌐 Mobile Responsive (for screens below 768px) */
+@media (max-width: 768px) {
+  .design-page,
+  .dev-page,
+  .marketing-page {
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p, li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  img,
+  .idli-image,
+  .dev-image,
+  .marketing-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  ul {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+  .insta-section {
+    padding: 10px;
+  }
+
+  .insta-logo {
+    width: 45px;
+    height: 45px;
+  }
+
+  .fun-fact,
+  .dev-quote,
+  .marketing-quote {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+}
+
+/* 📱 Extra Small Devices (below 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  p, li {
+    font-size: 14px;
+  }
+  ul {
+    text-align: left;
+  }
+}
